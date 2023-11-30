@@ -12,7 +12,9 @@ to the song of course, so just putting that out there.
 
 [EverDrive64](https://krikzz.com/our-products/cartridges/ed64x7.html)
 
-[Minimalist GNU for Windows 64-bit](https://www.mingw-w64.org/)
+[AudioConv64](https://n64squid.com/homebrew/libdragon/dfs/audioconv64/)
+
+[Minimalist GNU for Windows 64-bit (toolchain related)](https://www.mingw-w64.org/)
 
 I'm running on Windows and using VSCode as my IDE. I have set up build
 commands that will let me push my ROM over to an EverDrive64 X7 over

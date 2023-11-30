@@ -1,18 +1,18 @@
 BUILD_DIR=build
 include $(N64_INST)/include/n64.mk
 
-src = videoplayer.c
+src = main.c
 
-all: videoplayer.z64
+all: RickRoll64.z64
 
-$(BUILD_DIR)/videoplayer.dfs: filesystem/*
-$(BUILD_DIR)/videoplayer.elf: $(src:%.c=$(BUILD_DIR)/%.o)
+$(BUILD_DIR)/RickRoll64.dfs: filesystem/*
+$(BUILD_DIR)/RickRoll64.elf: $(src:%.c=$(BUILD_DIR)/%.o)
 
-videoplayer.z64: N64_ROM_TITLE="Video Player"
-videoplayer.z64: $(BUILD_DIR)/videoplayer.dfs
+RickRoll64.z64: N64_ROM_TITLE="Video Player"
+RickRoll64.z64: $(BUILD_DIR)/RickRoll64.dfs
 
 clean:
-	rm -rf $(BUILD_DIR) videoplayer.z64
+	rm -rf $(BUILD_DIR) RickRoll64.z64
 
 -include $(wildcard $(BUILD_DIR)/*.d)
 
