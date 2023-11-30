@@ -8,6 +8,8 @@ to the song of course, so just putting that out there.
 
 ## What tools did I use?
 
+[libdragon (unstable branch has the videoplayer)](https://github.com/DragonMinded/libdragon)
+
 [UNFLoader](https://github.com/buu342/N64-UNFLoader)
 
 [EverDrive64](https://krikzz.com/our-products/cartridges/ed64x7.html)
